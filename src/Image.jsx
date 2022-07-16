@@ -7,11 +7,7 @@ const Image = ({ curImage, isActive }) => {
 				isActive ? "slide active" : "slide"
 			}`}>
 			{isActive && (
-				<img
-					src={curImage}
-					alt="Image 1"
-					className="w-full h-full rounded-xl"
-				/>
+				<img src={curImage} alt="Image" className="w-full h-full rounded-xl" />
 			)}
 		</div>
 	);

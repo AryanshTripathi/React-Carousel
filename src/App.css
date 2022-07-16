@@ -7,7 +7,7 @@
 	transform: scale(0);
 	transition: 700ms ease;
 	will-change: transform, box-shadow, z-index;
-	box-shadow: 2px 5px 8px 2px;
+	box-shadow: 2px 6px 6px 2px;
 }
 
 .slide.active {
