@@ -1,0 +1,27 @@
+* {
+	user-select: none;
+}
+
+.slide {
+	opacity: 0;
+	transform: scale(0);
+	transition: 700ms ease;
+	will-change: transform, box-shadow, z-index;
+	box-shadow: 2px 5px 8px 2px;
+}
+
+.slide.active {
+	opacity: 1;
+	transform: scale(1.08);
+	transition: 700ms;
+	will-change: transform, box-shadow, z-index;
+}
+
+.icon {
+	box-shadow: 2px 5px 8px 2px;
+	opacity: 0.15;
+}
+
+.icon:hover {
+	opacity: 0.7;
+}
